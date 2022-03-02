@@ -1,0 +1,137 @@
+/* GLOBAL TAGS */
+:root {
+    --primary-color: #000000;
+    --secondary-color: #c7c7c7;
+    --tertiary-color: #2c3e41;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    color: var(--tertiary-color);
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  section {
+    padding: 60px;
+  }
+/* GLOBAL TAGS END */
+
+
+  
+/* NAV STYLES START */
+  header {
+    padding: 20px 35px;
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    /* background-image: url("../images/hero_texture.jpg"); */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 100%;
+    z-index: 9999;
+  }
+
+  .h1-background {
+      background-color: var(--secondary-color);
+      background-position-x: right 20px;
+    
+  }
+  header h1 a {
+    font-weight: bold;
+    margin: 0;
+    font-size: 44px;
+    color: var(--tertiary-color);
+    text-decoration: none;
+  }
+  
+  header li a {
+    color: var(--secondary-color);
+  }
+  
+  header nav {
+    margin: 7px 0;
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    display: flex;
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    align-items: flex-end;
+  }
+  
+  header nav ul li a:hover {
+    background: var(--primary-color);
+    border-radius: 5px;
+  }
+/* NAV STYLES END */
+
+
+
+/* HERO STYLES START */
+.hero {
+    background-image: url('../images/hero_texture.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 100%;
+    height: 300px;
+  }
+
+  .hero-h2 {
+      position: relative;
+      color: var(--primary-color);
+      top: 150px;
+      background-color: var(--secondary-color);
+  }
+/* HERO STYLES END */
+
+
+
+/* SECTION STYLES START */
+.section-title {
+    font-size: 64px;
+    border-right: 3px solid;
+    color: var(--primary-color);
+    padding-bottom: 20px;
+    margin: 0 auto 5px auto;
+    width: 25%;
+  }
+
+.flex-container {
+
+  } 
+.about-text {
+    
+  }   
+
+.flex-boxes {
+
+  }
+/* SECTION STYLES END */
+
+
+
+/* FOOTER STYLES START */
+.footer-content {
+    text-align: center;
+}
