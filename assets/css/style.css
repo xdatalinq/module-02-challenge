@@ -234,19 +234,31 @@
   
 }
 
-.section-border-contact {
-  border-left: 4px solid;
-  margin: 0px 50px 20px 20px;
-  padding-left: 50px;
-  padding-bottom: 20px;
-  flex: 0 0 75%;
-  left: 300px;
-  
-  top: 1000px;
-}
-
 /* FOOTER STYLES START */
 .footer-content {
     text-align: center;
     align-self: baseline;
 }
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  .flex-links {
+    flex-direction: column;
+  }
+
+  .primary-box img {
+    width: 100%;
+  }
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  header nav ul li a {
+    font-size: 3vw;
+  }
+
+  .secondary-box img {
+    width: 150%;
+  }
+
+  .flex-links {
+    width: 100%;
+  }
