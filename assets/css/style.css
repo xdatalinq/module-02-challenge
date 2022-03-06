@@ -26,7 +26,7 @@
   
 /* NAV STYLES START */
   header {
-    padding: 20px 35px;
+    padding: 15px 50px 15px 0;
     background-color: var(--tertiary-color);
     display: flex;
     justify-content: space-between;
@@ -43,7 +43,12 @@
 
   .h1-background {
       background-color: var(--secondary-color);
-      background-position-x: right 20px;
+
+  }
+
+  header h1 {
+    padding: 3px 15px 3px 70px;
+    
   }
   header h1 a {
     font-weight: bold;
@@ -70,13 +75,13 @@
   }
   
   header nav ul li {
-    padding: 0 15px 0;
+    padding: 0 5px 0;
   }
   header nav ul li a {
     display: flex;
-    padding: 10px 3px 3px;
+    padding: 20px 3px 3px;
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 1.25vw;
     align-items: flex-end;
     text-decoration: none;
     border-bottom: 3px solid;
@@ -117,12 +122,11 @@
 /* SECTION STYLES START */
 .section-title {
     font-size: 54px;
-    border-right: 3px solid;
     color: var(--primary-color);
     padding-bottom: 20px;
-    margin: 0 auto 5px auto;
-    width: 25%;
-    flex: 0 0 16%;
+    margin: 0 0 5px 50px;
+    flex: 0 0 10px;
+    text-align: right;
   }
 
 .flex-container {
@@ -132,7 +136,7 @@
   } 
 
   .about-text {
-    flex: 0 0 60%;
+    flex: 0 0 70%;
     align-self: center;
   }   
 
@@ -141,7 +145,7 @@
   }
 
   .flex-links {
-    flex: 0 0 60%;
+    /* flex: 0 0 60%; */
     align-self: center;
     text-align: center;
     text-decoration: none;
@@ -152,7 +156,9 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    width: 1000px;
+    width: 750px;
+    
+
   }
 
   .flex-links address a {
@@ -176,6 +182,7 @@
 
 .box-wrapper {
   position: relative;
+  display: inline-flex
 }
 
 .box-wrapper:hover {
@@ -192,19 +199,50 @@
 }
 
 .primary-box img {
-  width: 750px;
-  height: 200px;
+  width: 950px;
+  height: 250px;
   object-fit: cover;
   object-position: 100% 0.5%;
   border: 5px solid var(--secondary-color);
 }
 
+.secondary-title {
+  padding: 10px;
+  background-color: var(--secondary-color);
+  font-size: 13px;
+  position: absolute;
+  line-height: 1.5;
+  transform: translate(0%,-140%);
+  margin: auto 5px auto 5px;
+}
+
 .secondary-box img {
-  width: 375px;
-  height: 75px;
+  width: 473px;
+  height: 100px;
   object-fit: cover;
   object-position: 100% 0.5%;
   border: 5px solid var(--secondary-color);
+}
+
+.section-border {
+  border-left: 4px solid;
+  margin: 0px 50px 20px 20px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  flex: 0 0 75%;
+  left: 300px;
+  
+}
+
+.section-border-contact {
+  border-left: 4px solid;
+  margin: 0px 50px 20px 20px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  flex: 0 0 75%;
+  left: 300px;
+  
+  top: 1000px;
 }
 
 /* FOOTER STYLES START */
