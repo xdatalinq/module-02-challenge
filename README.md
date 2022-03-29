@@ -1,6 +1,6 @@
 # Portfolio layout project
 
-Portfolio website start, to be expanded continuously throughout program. 
+Portfolio website start, to be expanded continuously throughout program. <br></br>
 Repo: https://github.com/xdatalinq/portfolio-layout <br></br>
 Live: https://xdatalinq.github.io/portfolio-layout <br></br>
 Screenshot: ![image](https://user-images.githubusercontent.com/89672040/156391186-9d80ac89-7d9c-4981-968b-d264a3cbd3d1.png)
