@@ -10,7 +10,7 @@
   * [License](#license)
 
   ## Description
-  Portfolio website template. reproduction of provided mockup built With:  
+  Portfolio website template. Reproduction of provided screenshot built With:  
   * HTML
   * CSS
   
